@@ -1,0 +1,566 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  font-size: medium;
+  color: black;
+  font-weight: lighter;
+}
+h1 {
+  font-size: 1.875rem;
+  margin-top:5rem;
+  font-weight: bolder;
+}
+.hero {
+  margin-top: 0.5rem;
+}
+
+.header {
+  text-align: center;
+}
+
+nav {
+  background-color: white;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding: 0.6rem 5rem;
+  margin: 0;
+  z-index: 2;
+}
+
+.btn {
+  position: relative;
+  left: 50rem;
+  margin: 0 0.6rem;
+  background-color: #f44322;
+  color: white;
+  font-size: large;
+  border: none;
+  font-weight: bold;
+  border-radius: 1.3rem;
+  width:6rem;
+  height: 3rem;
+}
+.btn:hover {
+  background-color: #942916;
+}
+.btn2 {
+  position: relative;
+  left: 50rem;
+  margin: 0 0.6rem;
+  background-color: white;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  border-radius: 1.3rem;
+  width: 6rem;
+  height: 3rem;
+}
+.btn2:hover {
+  background-color: #dc391c;
+  color: white;
+}
+
+.secdiv {
+  position: absolute;
+  color: white;
+  /* margin: 1.3rem 0; */
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+#search {
+  width: 30%;
+  margin-top: 1.3rem;
+  height: 3rem;
+  border-radius: 1.6rem;
+  border: none;
+  padding-right: 0.6rem;
+}
+::placeholder {
+  color: rgba(75, 74, 74, 0.925);
+  font-size: 1.1rem;
+  padding-left: 1.6rem;
+}
+#submit {
+  width: 15%;
+  height: 1.6rem;
+  border-radius: 1.438rem;
+  border: none;
+  margin-right: 3.438rem;
+}
+
+.sec2 {
+  width: 100%;
+  height: 3rem;
+  position: relative;
+  margin: 5rem 3rem;
+}
+.scooter {
+  position: absolute;
+  left: 8.125rem;
+}
+.dash-house {
+  position: absolute;
+  right: 45%;
+}
+.iphone {
+  position: absolute;
+  right: 15%;
+}
+
+a {
+  text-decoration: none;
+  color: #ec3211;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.sec3 {
+  position: relative;
+  margin-top: 35rem;
+  width: 100%;
+  height: 31.25rem;
+}
+
+.btn3 {
+  background-color: #f63a19;
+  color: white;
+  font-size: large;
+  border: none;
+  font-weight: normal;
+  border-radius: 1.3rem;
+  width: 11.875rem;
+  height: 2.657rem;
+  cursor: pointer;
+}
+.btn3:hover {
+  background-color: #9a1d06;
+}
+.subsec3 {
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+.subsec3 h1 {
+  font-size: 3rem;
+}
+.pizza {
+  position: absolute;
+  left: 45%;
+  bottom: 10%;
+  /* top: 0; */
+}
+
+.sec4 {
+  background-color: rgb(254, 241, 238);
+  position: relative;
+  width: 100%;
+  height: 39.375rem;
+}
+.sec4img {
+  position: absolute;
+  top: 6rem;
+  left: 10%;
+}
+.subsec4 {
+  position: absolute;
+  right: 10%;
+  top: 10.625rem;
+}
+
+.sec5 {
+  background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 63rem;
+  width: 100%;
+  position: relative;
+}
+.grocery {
+  width: 100%;
+  height: 63rem;
+  background-color: black;
+  z-index: 1;
+  opacity: 0.5;
+  position: absolute;
+}
+.centered-text {
+  position: absolute;
+  top: 15%;
+  left: 27%;
+  text-align: center;
+}
+.bigfont {
+  font-size: 3rem;
+  color: #fff;
+  padding-bottom: 1.1rem;
+}
+h6 {
+  font-size: 1.875rem;
+  color: rgb(245, 245, 245);
+}
+.sec5p {
+  color: azure;
+  font-size: large;
+  line-height: 1.5;
+}
+.gbtn {
+  background-color: #ca280c;
+  color: white;
+  font-size: medium;
+  border: none;
+  font-weight: normal;
+  border-radius: 1.3rem;
+  width: 10rem;
+  height: 2.657rem;
+  text-align: center;
+  cursor: pointer;
+}
+.gbtn:hover {
+  background-color: #db290a;
+}
+.sec6 {
+  position: relative;
+  padding-top: 0.6;
+  width: 100%;
+  height: 37.5rem;
+  margin-bottom: 1.875rem;
+}
+.subsec6 {
+  top: 20%;
+  position: absolute;
+  left: 10%;
+}
+.subsec6 p {
+  line-height: 2;
+}
+.sec6img {
+  position: absolute;
+  left: 45%;
+  top: 10%;
+}
+
+.sec7 {
+  position: relative;
+  padding-top: 1.875rem;
+  background-color: rgb(254, 241, 238);
+  width: 100%;
+  height: 140.5rem;
+  text-align: center;
+  font-weight: bolder;
+}
+.h17 {
+  font-size: 3rem;
+}
+.subsec7 {
+  position: absolute;
+  left: 6rem;
+  padding-top: 1.875rem;
+}
+.subsec7b {
+  position: absolute;
+  right: 6rem;
+  padding-top: 1.875rem;
+}
+.sec7 p {
+line-height: 1.8;  
+}
+
+.btn7 {
+  background-color: #f73d1d;
+  margin-top: 1.3rem;
+  color: white;
+  font-size: large;
+  border: none;
+  font-weight: normal;
+  border-radius: 1.3rem;
+  width: 12.5rem;
+  height: 2.657rem;
+  cursor: pointer;
+}
+.btn7:hover {
+  background-color: #c72508;
+}
+.flower {
+  margin-top: 3.75rem;
+}
+.btn7b {
+  background-color: #f73d1d;
+  color: white;
+  font-size: large;
+  border: none;
+  font-weight: normal;
+  border-radius: 1.3rem;
+  width: 12.5rem;
+  height:2.657rem;
+  cursor: pointer;
+  margin-top: 1.3rem;
+}
+.btn7b:hover {
+  background-color: #9a1d06;
+}
+.subsec7c {
+  position: absolute;
+  top: 52%;
+  left: 6rem;
+}
+.btn7c {
+  background-color: #f73d1d;
+  color: white;
+  font-size: large;
+  border: none;
+  font-weight: normal;
+  border-radius: 1.3rem;
+  width: 12.5rem;
+  height: 3rem;
+  cursor: pointer;
+  margin-top: 1.6rem;
+}
+.btn7c:hover {
+  background-color: #9a1d06;
+}
+.subsec7d {
+  position: absolute;
+  top: 52%;
+  right: 6rem;
+}
+
+.sec8 {
+  position: relative;
+  padding-top: 1.875rem;
+  width: 100%;
+  height: 70rem;
+  text-align: center;
+  font-weight: bolder;
+}
+.subsec8 {
+  top: 20%;
+  padding-top: 13rem;
+  font-weight: bold;
+  position: absolute;
+  left: 8%;
+}
+.h18 {
+  font-size: 3rem;
+}
+.subsec8 h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.sec8img {
+  padding-top: 15.675rem;
+  position: absolute;
+  left: 45%;
+  top: 7%;
+}
+
+.sec9 {
+  background-color: rgb(254, 241, 238);
+  position: relative;
+  width: 100%;
+  padding-top: 1.3rem;
+  height: 41.875rem;
+}
+.sec9img {
+  position: absolute;
+  top: 18%;
+  left: 6%;
+}
+.subsec9 {
+  position: absolute;
+  font-size: 1.3rem;
+  right: 8%;
+  top: 30%;
+}
+.sec10 {
+  position: relative;
+  width: 100%;
+  height: 25rem;
+}
+.sec10 h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 1.875rem;
+}
+table {
+  position: relative;
+  left: 1%;
+  width: 100%;
+  font-size: medium;
+}
+tr {
+  font-size: 1.3rem;
+  width: 50%;
+  font-weight: lighter;
+}
+td {
+  text-align: center;
+  padding: 0.6rem;
+}
+td a {
+  font-weight: lighter;
+  color: black;
+}
+th {
+  border-bottom: 2px solid lightgrey;
+  padding: 0.6;
+}
+
+th:hover {
+  background-color: rgba(211, 211, 211, 0.581);
+  border-bottom: 2px solid black;
+}
+.top {
+  border-bottom: 3px solid black;
+}
+td:hover {
+  background-color: rgba(211, 211, 211, 0.581);
+}
+
+footer {
+  display: block;
+  background-color: #000;
+  width: 100%;
+  height: 62.188rem;
+}
+footer h2 {
+  color: #fff;
+  margin-left: 3rem;
+  padding-top: 1.3rem;
+  padding-left: 5.625rem;
+}
+
+ul {
+  line-height: 2;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  padding: 0.6;
+}
+p a {
+  color: #9b9797;
+}
+.parentdiv {
+  position: relative;
+  margin-bottom: 1.8rem;
+}
+.subfooter {
+  position: absolute;
+  left: 11%;
+  margin-top: 1.875rem;
+}
+.subfooter1 {
+  position: absolute;
+  left: 32%;
+  margin-top: 1.875rem;
+}
+.subfooter2 {
+  position: absolute;
+  left: 57%;
+  margin-top: 1.875rem;
+}
+.subfooter3 {
+  position: absolute;
+  right: 10%;
+  margin-top: 1.875rem;
+}
+.secondfooter {
+  position: absolute;
+  left: 10%;
+  margin-top: 11.675rem;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+
+h4 {
+  color: #fff;
+  font-size: 1.3rem;
+}
+.subsecond {
+  position: absolute;
+  left: 32%;
+  margin-top: 15rem;
+}
+.third {
+  position: absolute;
+  right: 29%;
+  margin-top: 15rem;
+}
+p a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.store {
+  position: absolute;
+  right: 10%;
+  margin-top: 5.625rem;
+}
+.applestore {
+  background-color: #9b9797;
+  border-radius: 0.6;
+  width: 11.675rem;
+  opacity: 0.4;
+  height: 75px;
+  margin-top: 25rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.applestore:hover {
+  background-color: #fff;
+}
+.playstore {
+  background-color: #9b9797;
+  border-radius: 0.6;
+  width: 11.675rem;
+  opacity: 0.4;
+  height: 75px;
+  margin-top: 1.3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.playstore:hover {
+  background-color: #fff;
+}
+.privacy {
+  position: absolute;
+  left: 10%;
+  display: flex;
+  gap: 0.9rem;
+  margin-top: 50rem;
+}
+.privacy a {
+  color: #c6c3c3;
+  font-weight: lighter;
+}
+.privacy a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.spp {
+  display: inline-flex;
+  color: #fff;
+  gap: 1.1rem;
+}
+
+#country {
+  width: 12.5rem;
+  height: 1.875rem;
+  border-radius: 0.9rem;
+  border: none;
+  margin-bottom: 6rem;
+}
+
+
+@media (max-width: 500px){
+
+}
